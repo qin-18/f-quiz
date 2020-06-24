@@ -1,0 +1,230 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff3cd;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4d3e3e;
+  color: #fff3cd;
+}
+.navbar-header {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar-title, .navbar-right a {
+  color: #fff3cd;
+  margin-bottom: 0;
+}
+
+
+.home-body {
+  padding-top: 40px;
+}
+
+      /* Left side of home page */
+.table {
+  margin: auto;
+  padding-left: 80px;
+}
+.table-column {
+  margin: 0 5px 0 5px !important;
+  border-color: #4d3e3e;
+  color: #4d3e3e;
+}
+
+.table-column .card-header {
+  background-color: #ff926b;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-top: 15px;
+}
+.table-column .card-body {
+  background-color: #ffc38b;
+  padding: 20px 0;
+}
+.table-column .card-text {
+  width: 80%;
+  height: 50px;
+  margin: 10px auto 10px auto;
+}
+.qn-button {
+  background-color: #4d3e3e;
+  width: 80%;
+  height: 50px;
+  margin: 10px auto 10px auto;
+}
+
+      /* Right side of home page */
+.quiz-info {
+  padding-right: 80px;
+  position: relative;
+}
+
+/* Team Records */
+.team-area button {
+  background-color: #ff926b;
+  border-color: #4d3e3e;
+  color: #4d3e3e;
+  font-weight: 600;
+}
+.team-area input {
+  background-color: #ffc38b;
+  border-color: #4d3e3e;
+  color: #4d3e3e;
+  font-weight: 600;
+  text-align: center;
+}
+.power-ups {
+  margin-bottom: 25px;
+  /* text-align: justify; */
+}
+.power-up-btn {
+  width: 25%;
+  margin: 0 3px;
+  border-color: #4d3e3e;
+}
+
+/* Edit and Reset Section */
+.quiz-info-bottom {
+  padding-bottom: 0;
+  padding-right: 95px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.edit-btn, .reset-btn {
+  width: 100%;
+  margin-top: 10px;
+  border-color: #4d3e3e;
+}
+.edit-form, .reset-form{
+  width: 100%;
+  padding: 0;
+  margin: 0 !important;
+  border-color: #fff3cd;
+}
+/* Edit Dropdown Menu */
+.dropdown-menu.edit-form {
+  margin-bottom: 10px !important;
+}
+.edit-input {
+  width: 70% !important;
+}
+.edit-submit {
+  width: 30% !important;
+}
+.edit-submit .btn{
+  width: 100%;
+  border-color: #4d3e3e;
+}
+#tick-img {
+  width: 15px;
+}
+/* Reset Dropdown Menu */
+.dropdown-menu.reset-form {
+  position: absolute;
+  top: 40px !important;
+}
+.confirm-reset {
+  width: 100%;
+  border-color: #4d3e3e;
+  background-color: #ff926b;
+  color: #4d3e3e;
+  font-weight: 600;
+}
+
+
+
+      /* Rules Page */
+.rules-whole {
+  padding-top: 40px;
+  margin: 0 auto 0 auto;
+  width: 70%;
+}
+.rules-title {
+  width: 100%;
+  background-color: #ff926b;
+  border-color: #4d3e3e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.rules-title h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4d3e3e;
+  margin: 0;
+}
+.rules-body {
+  width: 100%;
+  text-align: left;
+  background-color: #ffc38b;
+  color: #4d3e3e;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-color: #4d3e3e;
+  margin: 10px auto 20px;
+  padding: 20px 30px;
+}
+
+
+      /* Question Page */
+.question-whole {
+  padding-top: 40px;
+  margin: 0 auto 0 auto;
+  width: 70%;
+}
+
+.question-no {
+  width: 100%;
+  background-color: #ff926b;
+  border-color: #4d3e3e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.question-no h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4d3e3e;
+  margin: 0;
+}
+#question-qn .card-body {
+  width: 100%;
+  background-color: #ffc38b;
+  color: #4d3e3e;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-color: #4d3e3e;
+  margin: 10px auto 20px;
+  padding: 20px 30px;
+}
+
+.ans-tag {
+  width: 100%;
+  background-color: #ffa180;
+  border-color: #4d3e3e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.ans-tag h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #4d3e3e;
+  margin: 0;
+}
+#question-ans .card-body {
+  width: 100%;
+  background-color: #fcc795;
+  color: #4d3e3e;
+  font-size: 1rem;
+  font-weight: 600;
+  border-color: #4d3e3e;
+  margin: 10px auto;
+  padding: 20px 30px;
+}

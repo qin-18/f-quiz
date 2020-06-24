@@ -1,0 +1,31 @@
+<%- include("header"); -%>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <p class="navbar-title">FESTIVITIES QUIZ</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/">BACK</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="rules-whole">
+
+  <div class="card card-body rules-title">
+    <h1>Quiz Rules</h1>
+  </div>
+
+  <div class="card card-body rules-body">
+    <ol>
+      <% rulesArray.forEach(function(rule) { %>
+        <li><p> &emsp; <%=rule%></p> </li>
+      <% }); %>
+    </ol>
+  </div>
+
+</div>
+
+<%- include("footer"); -%>

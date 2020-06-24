@@ -1,0 +1,43 @@
+<%- include("header"); -%>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <p class="navbar-title">FESTIVITIES QUIZ</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/">BACK</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="question-whole">
+
+  <button class="btn btn-secondary question-no" type="button" data-toggle="collapse" data-target="#question-qn" aria-expanded="false" aria-controls="collapseExample">
+      <h1>Question <%=questionNo%></h1>
+  </button>
+
+  <div class="collapse" id="question-qn">
+
+    <div class="card card-body">
+      <p><%=question%></p>
+    </div>
+
+    <button class="btn btn-secondary ans-tag" type="button" data-toggle="collapse" data-target="#question-ans" aria-expanded="false" aria-controls="collapseExample">
+        <h2>Answer</h2>
+    </button>
+
+    <div class="collapse" id="question-ans">
+      <div class="card card-body">
+        <p><%=answer%></p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<%- include("footer"); -%>
